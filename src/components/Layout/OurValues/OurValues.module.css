@@ -1,0 +1,21 @@
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.OurValues {
+	padding: 50px 0;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.title {
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}

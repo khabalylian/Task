@@ -1,0 +1,38 @@
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	gap: 24px;
+	width: 410px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.card::before {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: -4px;
+	right: -4px;
+	bottom: -4px;
+	background: linear-gradient(134.28deg, #F367A3 0%, #F0CBEB 35.88%, #AF8AF3 80.05%, #68D2E1 131.8%);
+	border-radius: 20px;
+	z-index: -1;
+}
+
+
+.title {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.btn {
+	width: 135px;
+	height: 56px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	padding: 5 10;
+}

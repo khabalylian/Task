@@ -1,0 +1,42 @@
+.slider {
+	padding: 50px 0;
+}
+
+.wrapperSlide {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 700px;
+	background-color: white;
+	box-shadow: 5px 5px 10px #888;
+	border-radius: 25px;
+	margin: 50px auto;
+	padding: 15px;
+}
+
+.slideTitle {
+	font-size: 22px;
+	font-weight: 700;
+	border-bottom: 1px solid;
+}
+
+.slideBtn {
+	text-decoration: underline;
+}
+
+.slideDot {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	opacity: 0.3;
+}
+
+.swiperPag {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: center;
+}
